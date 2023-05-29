@@ -1,0 +1,153 @@
+@media screen and (min-width: 1800px) {
+    #primoP,
+    #quartoP {
+        margin-right: calc((100% - 1600px) / 2);
+        margin-left: calc((100% - 1600px) / 2);
+    }
+
+    #secondoP,
+    #terzoP {
+        margin-right: calc((100% - 1600px) / 2);
+        margin-left: calc((100% - 1600px) / 2);
+    }
+
+    #primiDue,
+    #altriDue {
+        margin-right: calc((100% - 1600px) / 2);
+        margin-left: calc((100% - 1600px) / 2);
+    }
+
+    #img1,
+    #img4 {
+        width: 600px;
+    }
+
+    #img2,
+    #img3 {
+        width: 600px;
+        margin-left: calc((100% - 1600px) / 2);
+    }
+}
+
+#tutto {
+
+    color: black;
+    background-image:url('img/ivrea.png');
+    background-size:cover;
+    size-adjust: 1;
+
+}
+
+#primoP{
+    margin-right: 60%;
+    margin-left: 10%;
+}
+
+#secondoP{
+    margin-right: 10%;
+    margin-left: 60%;
+}
+
+#terzoP{
+    margin-right: 10%;
+    margin-left: 60%;
+}
+
+#quartoP{
+    margin-right: 60%;
+    margin-left: 10%;
+}
+
+#primiDue {
+    border: solid;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: bisque;
+}
+
+#altriDue {
+    border:solid;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: bisque;
+}
+
+#img1 {
+    width: 400px;
+    margin-top: 5%;
+    margin-right: 7%;
+    padding: 20px;
+    float: right;
+    position: relative;
+    
+}
+
+#img2 {
+    width: 400px;
+    margin-top: 1%;
+    margin-left: 8%;
+    padding: 20px;
+    float: left;
+    position: relative;
+}
+
+#img3 {
+    width: 400px;
+    margin-top: 1%;
+    margin-left: 8%;
+    padding: 20px;
+    float: left;
+    position: relative;
+}
+
+#img4 {
+    width: 400px;
+    margin-top: 5%;
+    margin-right: 7%;
+    padding: 20px;
+    float: right;
+    position: relative;
+}
+
+@media screen and (max-width: 768px) {
+
+    #tutto {
+      color: black;
+      background-image: url('img/ivrea.png');
+      background-size: cover;
+      size-adjust: 1;
+    }
+  
+    #primoP,
+    #secondoP,
+    #terzoP,
+    #quartoP {
+      text-align: center;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  
+    #primiDue,
+    #altriDue {
+      border: solid;
+      margin-right: 5%;
+      margin-left: 5%;
+      background-color: bisque;
+    }
+  
+    #img1,
+    #img2,
+    #img3,
+    #img4 {
+      width: 100%;
+      max-width: 200px;
+      padding: 10px;
+      float: none;
+      margin-left: 25%;
+    }
+  
+    #nav {
+      padding: 10px;
+    }
+  
+  }
